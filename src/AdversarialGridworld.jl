@@ -1,6 +1,6 @@
 module AdversarialGridworld
     using POMDPs
-    using POMDPModelTools
+    using POMDPTools
     using StaticArrays
     using Parameters
     using Base.Cartesian
@@ -11,7 +11,6 @@ module AdversarialGridworld
     using GridInterpolations
     using LocalFunctionApproximation
     using Serialization
-    using POMDPSimulators
     using Statistics
     using Cairo, Fontconfig
 

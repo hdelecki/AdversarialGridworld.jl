@@ -112,7 +112,7 @@ function tocolor(mdp::DoubleAdversarialGridworldMDP, r::Float64)
 end
 
 # Renders the mdp
-function POMDPModelTools.render(mdp::DoubleAdversarialGridworldMDP, s::S2)
+function POMDPTools.render(mdp::DoubleAdversarialGridworldMDP, s::S2)
     nx, ny = mdp.size
     cells = []
     for x in 1:nx, y in 1:ny
